@@ -18,12 +18,12 @@ Variable(s) Removed from Input Data:
 
 Compiling, Training, and Evaluating the Model:
 
-Neurons, Layers, and Activation Functions Selected: Initially, the model had 2 hidden layers with 80 neurons in the first layer and 30 neurons in the second layer, using ReLU activation function. However, despite tweaking hyperparameters, accuracy remained at around 0.7286. Subsequently, a method was created to automatically optimize the model. The best model obtained had:
-Activation: 'sigmoid'
-Neurons in the input layer: 57
-Neurons in the hidden layers (6 of): 5, 83, 25, 69, 59, 53
-Tuner parameters: Epochs=7
-This resulted in a marginal improvement in accuracy to 0.7342.
+Neurons, Layers, and Activation Functions Selected: Initially, the model had 2 hidden layers with 80 neurons in the first layer and 30 neurons in the second layer, using ReLU activation function. However, despite tweaking hyperparameters, accuracy remained at around 0.7286. Subsequently, a method was created to automatically optimize the model. The best model obtained had:  
+Activation: 'sigmoid'  
+Neurons in the input layer: 57  
+Neurons in the hidden layers (6 of): 5, 83, 25, 69, 59, 53  
+Tuner parameters: Epochs=7  
+This resulted in a marginal improvement in accuracy to 0.7342.  
 
 3. Summary:
 The deep learning model's performance, while showing slight improvement through hyperparameter optimization, still falls short of the desired target accuracy (75%). It seems that the complexity of the problem and the nature of the dataset pose challenges for the current modeling techniques.
