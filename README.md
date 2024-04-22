@@ -6,6 +6,7 @@ The purpose of this analysis is to predict whether applicants will be successful
 2. Results:
 
 Data Preprocessing:
+
 Target Variable(s) for Model:
 ['APPLICATION_TYPE', 'AFFILIATION', 'CLASSIFICATION', 'USE_CASE', 'ORGANIZATION', 'STATUS', 'INCOME_AMT', 'SPECIAL_CONSIDERATIONS', 'ASK_AMT']
 
